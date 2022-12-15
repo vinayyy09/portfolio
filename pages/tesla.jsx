@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entities */
 import Image from "next/image";
 import React from "react";
 import car from "../public/assets/projects/tesla.png";

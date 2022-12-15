@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entities */
 import React from "react";
 import { BsLinkedin, BsInstagram } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
