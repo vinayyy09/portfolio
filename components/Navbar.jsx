@@ -131,7 +131,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's build something awsome together
+                `Let's` build something awsome together
               </p>
             </div>
           </div>
