@@ -1,4 +1,3 @@
-/* eslint react/no-unescaped-entities */
 import React from "react";
 import { BsLinkedin, BsInstagram } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
@@ -18,7 +17,7 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-black">A Front-End Web Developer</h1>
           <p className="py-4 text-black/50 max-w-[70%] m-auto">
-            I’m focused on building responsive front-end web applications
+            I am focused on building responsive front-end web applications
             integrating back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">

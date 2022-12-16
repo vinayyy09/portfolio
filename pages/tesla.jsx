@@ -1,4 +1,3 @@
-/* eslint react/no-unescaped-entities */
 import Image from "next/image";
 import React from "react";
 import car from "../public/assets/projects/tesla.png";
@@ -30,8 +29,8 @@ const tesla = () => {
           <h2 className="p-3">Overview</h2>
           <p>
             This app was built using React JS and is hosted on Vercel. It is
-            styled using a package called 'Styled Components' and basically has
-            a bunch of reusable components which makes the process less lengthy.
+            styled using a package called Styled Components and basically has a
+            bunch of reusable components which makes the process less lengthy.
             It is just an attempt to clone the original Tesla website and may
             have some minor changes here and there. This application is fully
             reponsive on all different devices.

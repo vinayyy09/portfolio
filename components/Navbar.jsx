@@ -1,4 +1,3 @@
-/* eslint react/no-unescaped-entities */
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
@@ -132,7 +131,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's build something awsome together
+                Lets build something awsome together
               </p>
             </div>
           </div>
