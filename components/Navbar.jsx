@@ -132,7 +132,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300">
               <p className="w-[85%] md:w-[90%] py-4">
-                `Let's` build something awsome together
+                Let's build something awsome together
               </p>
             </div>
           </div>
@@ -170,18 +170,38 @@ const Navbar = () => {
                   Let's Conect
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsLinkedin />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FiMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsInstagram />
-                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/vinay-babar"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <BsLinkedin />
+                    </div>
+                  </a>
+                  <Link href="/#contact">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FiMail />
+                    </div>
+                  </Link>
+                  <a
+                    href="https://github.com/vinayyy09"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/vinayyy_09"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <BsInstagram />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
