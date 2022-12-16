@@ -166,7 +166,7 @@ const Navbar = () => {
               </ul>
               <div className="pt-40">
                 <p className="uppercase font-bold text-[#de0f3f]">
-                  Let's Conect
+                  Connect with me!
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                   <a
